@@ -1,0 +1,65 @@
+/* Estilo para el contenedor */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f6d7e6;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #d7c2e2;
+  color: #8d6ac9;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto 30px;
+  max-width: 600px;
+}
+
+
+/* Estilo para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para las etiquetas */
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #8d6ac9;
+}
+
+/* Estilo para los campos de texto */
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+  background-color: #8d6ac9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Reglas de CSS para hacer el formulario responsive */
+@media only screen and (min-width: 768px) {
+  /* Ajustamos el espaciado del formulario en pantallas más grandes */
+  .container {
+    padding: 60px;
+  }
+}
+

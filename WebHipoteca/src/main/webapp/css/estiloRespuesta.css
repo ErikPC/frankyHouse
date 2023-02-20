@@ -1,0 +1,82 @@
+/* Estilo para el contenedor */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #d8c8e6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilo para los párrafos */
+p {
+  color: #7b36a4;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Estilo para la imagen */
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Reglas de CSS para hacer el contenedor responsive */
+@media only screen and (min-width: 768px) {
+  /* Ajustamos el espaciado del contenedor en pantallas más grandes */
+  .container {
+    padding: 60px;
+  }
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#amortizacion {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#amortizacion h1 {
+  font-size: 2rem;
+  color: #7b36a4;
+  margin-bottom: 20px;
+}
+
+#tabla-amortizacion {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+}
+
+#tabla-amortizacion th {
+  background-color: #7b36a4;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+#tabla-amortizacion td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#tabla-amortizacion tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
